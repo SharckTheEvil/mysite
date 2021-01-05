@@ -1,0 +1,198 @@
+* {margin: 0; padding: 0;}
+a {text-decoration: none; color: white;}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* Стили до рекламных вставок */
+
+.header {text-align: center; background-color: white; padding: 10px; border-bottom: 1px solid gray;}
+.header > a {color: black; text-decoration: none; margin-left: 8px;}
+.header > a:hover {border-bottom: 1px solid black;}
+.saitName {display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 10px;}
+.saitName > div {background-color: white;}
+.contacts, .name, .imgKorz  {text-align: center;}
+.name a {color:rgb(9, 163, 9); font-size: 2.4em;}
+.contaktsstyle {color: rgb(34, 216, 34);} .contaktsstyle a {color: rgb(34, 216, 34);}
+.imgKorz {margin-left: 40%;}
+.menu {background-color: rgb(34, 216, 34); padding: 10px;}
+.menu_center {text-align: center;}
+.menu_center > a {color: white; text-decoration: none; margin-left: 5px; font-size: 1.3em;}
+.menu_center > a:hover {border-bottom: 1px solid white;}
+.lupa {background-color: rgb(180, 175, 175); width: 50px; height: 50px; float: left; margin-left: 15px;}
+.lupa img {margin-top: 18%;}
+.lupa:hover {background-color:  rgb(34, 216, 34); transition: 0.3s;}
+.korz {background-color: rgb(34, 216, 34); transition: 0.3s;}
+.korz:hover {background-color: rgba(200, 12, 12, 0.637);}
+.reklama {display: grid; grid-template-columns: 1fr 1fr 1fr; background-color: rgb(70, 68, 68);}
+.reklama_content { padding: 20px; background-color: rgb(70, 68, 68); justify-self: center; align-self: center;}
+.reklama_content img{float: left; justify-items: center; }
+.reklama .reklama_content span {margin-top: 16%; color: white; float: left; margin-left: 10px; }
+
+/* Стили на рекламные вставки */
+.reklama_center {padding-top: 10px; padding-bottom: 10px;}
+.reklama_center a {text-decoration: none; color: rgb(9, 163, 9); font-size: 1.5em; margin-left: 3%; margin-top: 10px;}
+.content_reklama {width: 90%; margin-left: 5%;; float: left; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-column-gap: 1em; grid-row-gap: 2em; }
+.skibki {border: 1px solid rgb(146, 142, 142); position: relative;}
+.skibki img {width: 100%;}
+.pasprodaha {background-color: rgba(12, 66, 241, 0.856); color: white; padding: 3px; display: inline; 
+position: absolute; top: 5px; right: 45px;}
+.proskidka {display: inline; position: absolute; top: 5px; right: 5px;background-color: rgba(248, 36, 36, 0.856);
+color: rgb(253, 253, 253); padding: 3px;}
+.nazvanie {display: inline; position: absolute; bottom: 5px; left: 5px;color: rgb(16, 250, 16);}
+.stoimost {display: inline; position: absolute; bottom: 5px; right: 5px;}
+
+/* Стили после рекламных вставок. На новости, инфу о сайте и футер */
+.news {float: left; background-color: rgba(63, 61, 61, 0.664); width: 100%; margin-top: 20px; display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; padding-bottom: 25px;}
+.newscontainer {margin-left: 10%; margin-top: 40px;}
+.qwe {width: 100%;}
+.newscontainer .qwer {color: white;}
+.newscontainer span {display: block; color: rgb(5, 92, 5); font-weight: 800;}
+.newscontainer .kolor {color: white;}
+
+.info {width: 90%; margin-left: 5%; margin-top: 25px; color: black; float: left; margin-bottom: 15px;}
+.spandelay {margin-top: 8px; display: block;}
+footer {display: grid; grid-template-columns: 1fr 1fr 1fr; background-color:rgba(63, 61, 61, 0.664); float: left;
+width: 100%; margin-top: 20px;}
+.box {justify-self: center; margin-top: 3%; margin-bottom: 3%;}
+
+/* Стили для каталога  */
+.namekatalog {color: green; margin-left: 5%; margin-top: 2%;}
+.katalogcontainer {width: 90%; margin-left: 5%; display: grid; grid-template-columns: 1fr 3fr; grid-column-gap: 1em;}
+.katalogbox {background-color: rgb(34, 216, 34); padding-left: 10px; padding-top:5px ;padding-bottom: 5px; }
+.katalogbox a {font-size: 1.2em; }
+.katalogbox a:hover{ border-bottom: 1px solid white;}
+.proba1 {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-gap: 1em; margin-top: 15px;} 
+.proba1 a {color: rgb(5, 92, 5);}
+.proba {border: 1px solid gray; text-align: center;}
+.proba2{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 1em; margin-top: 30px;}
+.proba2 a {color: rgb(5, 92, 5);}
+.proba2_x {position: relative; border: 1px solid gray; text-align: center;}
+.proba2_y {position: absolute; left: 10px; bottom: 10px; color: rgb(34, 216, 34); font-size: 1.1em;}
+.proba2_z {position: absolute; right: 10px; bottom: 10px; font-size: 1.1em;}
+.whiteblock {background-color: white;}
+.contakts {float: left; padding: 60px;}
+.contakts span {display: block; margin-top:8px ;} 
+.contaktimg img {position: relative; top: 17px;}
+.grafik {font-weight: 800; font-size: 1.2em;}
+
+/* Стили для товаров по отдельности */
+.tovarcontainer {display: grid; grid-template-columns: 1fr 1fr 2fr; width: 90%; margin-left: 5%;
+margin-top: 1em; grid-column-gap: 0.5em;}
+.imgcontainer {display: grid; grid-template-rows: 1fr 1fr; grid-auto-columns: 160px; 
+justify-content: end;}
+.boximg img {width: 100%;}
+.boximg {border: 1px solid rgb(161, 157, 157); box-shadow: 0 0 5px rgb(175, 172, 172); cursor: pointer;}
+.box1 {margin-top: 1em}
+.centralimg {border: 1px solid rgb(161, 157, 157); box-shadow: 0 0 5px rgb(175, 172, 172); 
+text-align: center; position: relative; }
+.centralimg img {text-align: center;}
+.bui {padding: 7px; background-color: rgb(40, 185, 40); color: white; display: inline-block;
+opacity: 85%;}
+.bui:hover{background-color: black; transition: 0.3s;}
+.bui img {position: relative; top: 6px;}
+.buionclick {color: rgb(13, 155, 13); cursor: pointer;}
+.buionclick img {position: relative; top: 6px;}
+.stylestoimost {font-size: 1.8em; color: rgb(138, 6, 6); font-weight: 800;}
+.harakteristick {float: left; margin-top: 1em; margin-left: 15%; width: 70%;}
+.harakteristick span:hover {color: rgb(13, 172, 13); border-bottom: 1px solid rgb(13, 172, 13);
+cursor: pointer; font-size: 1.1em;}
+.closemodal {background-color: rgb(14, 184, 14); width: 50px; height: 50px; float: right;
+text-align: center; cursor: pointer;}
+.closemodal img {margin-top: 18%;}
+.modalcontent {margin-top: 4em; text-align: center;  font-weight: bold; padding: 15px;}
+.modalinfo {font-size: 0.9em; margin-top: 1em; float: left;}
+.modalzagolovok {font-size: 1.3em;}
+.modalproba {position: fixed; background-color: rgb(0,0,0,0.8); width: 100%;height: 100%;
+opacity: 1; display: none;}
+.mobal {position: absolute; width: 30%;  margin-top: 5em; left: 35%;
+border: 1px solid black; background-color: white;opacity: none; }
+.phone {position: relative; top: 8px; right: 4px;}
+.nomerstyle {font-size: 1.1em; border-bottom: 1px solid red;}
+/* Стили для доставки */
+.dostavkacontakts {width: 85%; margin-left: 15%; margin-top: 2em; float: left;}
+.probaimg1 {position: relative; top: 0; z-index: 2; position: absolute;left: 1em; display: none;}
+/* Стили для корзины */
+.korzina {display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-row-gap: 2em;}
+/* .box1proba {width: 300px;} */
+.otogostoimost {position: relative; float: left; width: 75%;}
+.formastoimost {float: right; line-height: 1.8;}
+.formastoimost p {font-weight: 800; font-size: 1.1em;}
+.formastoimost button {background-color: rgb(14, 184, 14); color: white;padding: 7px;
+font-weight: 500; font-size: 1.1em; border: 0ch;}
+.formastoimost button:hover {background-color: black; transition: 0.3s;}
+.qwer66 {align-self: center; cursor: pointer;}
+.containertovarovjs {float: left; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; width: 100%;margin-top: 1em;}
+
+/* Адаптивность главной страницы index */
+
+@media screen and (max-width: 1000px) {
+    .reklama_content {width: 120px;}
+    .reklama_content img {width: 100%;}
+}
+@media screen and (max-width: 720px) {
+    .reklama_content {width: 80px;}
+    .reklama_content img {width: 100%;}
+    .menu_center a {font-size: 1em;}
+}
+@media screen and (max-width: 520px) {
+    .reklama_content {width: 60px;}
+    .reklama_content img {width: 100%;}
+}
+@media screen and (max-width: 420px) {
+    .reklama_content {padding: 3px;}
+    .reklama_content {width: 45px; justify-self: start; font-size: 0.8em;}
+    .reklama_content img {width: 100%; display: none;}
+}
+@media screen and (max-width: 580px) {
+    .menu_center a {font-size: 0.8em; margin-left: 1.5px;}
+}
+@media screen and (max-width: 1080px) {
+    .content_reklama {grid-template-columns: 1fr 1fr;}
+}
+@media screen and (max-width: 650px) {
+    .content_reklama {grid-template-columns: 1fr;}
+}
+@media screen and (max-width: 480px) {
+    .news {grid-template-columns: 1fr 1fr;}
+    .newscontainer {margin-left: 0;}
+    .adaptimg {width: 160px;}
+}
+@media screen and (max-width: 590px) {
+    .mobilequit {display: none;}
+    .mobilecenter {text-align: center;}
+    footer {grid-template-columns: 1fr;}
+}
+@media screen and (max-width: 675px) {
+    .saitName {display: block; text-align: center;}
+    .contacts {display: none;}
+    .imgKorz {float: right; }
+}
+
+/* Стили мобильной верстки для разделов, файл naimenovanie1 и так далее */
+
+@media screen and (max-width: 1166px) {
+    .katalogbox {display: none;}
+    .namekatalog {display: none;}
+    .infokatalog1 {text-align: center;}
+}
+@media screen and (max-width: 800px) {
+    .proba2 {grid-template-columns: 1fr 1fr; width: 100%; text-align: center;}
+    .katalogcontainer {grid-template-columns: 1fr;}
+}
+@media screen and (max-width: 540px) {
+    .proba2 {grid-template-columns: 1fr;}
+    .infokatalog1 {text-align: center;}
+}
+@media screen and (max-width: 600px) {
+    .proba1 {display: none;}
+    .katalogmobilecenter {text-align: center;}
+}
+@media screen and (max-width: 584px) {
+    .contakts {text-align: center;}
+}
+@media screen and (max-width: 700px) {
+    .dostavkacontakts {margin-left: 3%; width: 97%;}
+}
